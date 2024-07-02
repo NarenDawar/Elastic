@@ -1,7 +1,7 @@
 # Elastic
 A Python-based / Pythonic Programming Language (interpreter based).
 
-# Descriptiom
+# Description
 This project was based on/inspired by:
 
 - CodePulse's Make Your Own Programming Language Tutorial(s)
