@@ -1,7 +1,7 @@
-#Elastic
+# Elastic
 A Python-based / Pythonic Programming Language (interpreter based).
 
-#Descriptiom
+# Descriptiom
 This project was based on/inspired by:
 
 - CodePulse's Make Your Own Programming Language Tutorial(s)
@@ -10,7 +10,7 @@ This project was based on/inspired by:
 This project was made for fun out of interest. The Parser and Interpreter bases were created by CodePulse,
 but I modified different parts to my liking and changed some functionality. I also added a variety of functions and data types.
 
-#Built-In Functions:
+# Built-In Functions:
 - print(param): Simple print statement
 - input(param): Take in user input (String exclusive)
 - input_int(param): Takes in user input (Integer exclusive)
@@ -35,6 +35,6 @@ but I modified different parts to my liking and changed some functionality. I al
 - to_upper(string): Returns a string in all uppercase.
 - to_lower(string): Returns a string in all lowercase.
 
-List Operations:
+# List Operations:
 
 
