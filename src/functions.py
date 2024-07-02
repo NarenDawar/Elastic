@@ -117,9 +117,6 @@ class BuiltInFunction(BaseFunction):
         return RTResult().success(Number.null)
     execute_print.arg_names = ["value"]
 
-    def execute_print_return(self, exec_context):
-        return RTResult().success(String(str(exec_context.symbol_table.get('value'))))
-    execute_print_return.arg_names = ['value']
 
     def execute_input(self, exec_context):
         text = input()
@@ -405,7 +402,6 @@ class BuiltInFunction(BaseFunction):
 
 # Registering built-in functions
 BuiltInFunction.print = BuiltInFunction("print")
-BuiltInFunction.print_ret = BuiltInFunction("print_return")
 BuiltInFunction.input = BuiltInFunction("input")
 BuiltInFunction.input_int = BuiltInFunction("input_int")
 BuiltInFunction.clear = BuiltInFunction("clear")
