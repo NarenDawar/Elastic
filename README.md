@@ -39,10 +39,10 @@ but I modified different parts to my liking and changed some functionality. I al
 
 
 # List Operations:
-Addition: [1,2,3] + 4 = [1,2,3,4]
-Conjunction: [1,2,3] * [4,5,6] = [1,2,3,4,5,6]
-Removal: [1,2,3] - 1 (index, not value) = [1,3]
-Retrieval: [1,2,3] / 0 (index, not value) = 1
+- Addition: [1,2,3] + 4 = [1,2,3,4]
+- Conjunction: [1,2,3] * [4,5,6] = [1,2,3,4,5,6]
+- Removal: [1,2,3] - 1 (index, not value) = [1,3]
+- Retrieval: [1,2,3] / 0 (index, not value) = 1
 
 # Special Notes
 - Files must have a .el extension
