@@ -23,6 +23,9 @@ class Value:
 
 	def multiplication(self, other):
 		return None, self.illegal_operation(other)
+	
+	def remainder(self, other):
+		return None, self.illegal_operation(other)
 
 	def division(self, other):
 		return None, self.illegal_operation(other)

@@ -547,7 +547,7 @@ class Parser:
         return self.power()
 
     def term(self):
-        return self.bin_op(self.factor, (TT_MUL, TT_DIV))
+        return self.bin_op(self.factor, (TT_MUL, TT_DIV, TT_REMAIN))
     
     def list_expression(self):
         result = ParseResult()

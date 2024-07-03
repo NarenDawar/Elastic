@@ -140,6 +140,8 @@ class Lexer:
                 self.next()
             elif self.current_char == "*":
                 tokens.append(Token(TT_MUL, pos_start=self.pos))
+            elif self.current_char == "%":
+                tokens.append(Token(TT_REMAIN, pos_start=self.pos))
                 self.next()
             elif self.current_char == "/":
                 tokens.append(Token(TT_DIV, pos_start=self.pos))

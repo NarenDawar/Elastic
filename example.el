@@ -33,6 +33,8 @@ repeat i = 0 to 5
 	print(join(map(["l", "sp"], oopify), ", "))
 end
 
+print(3 % 2)
+
 
 
 

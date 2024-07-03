@@ -123,6 +123,8 @@ class Interpreter:
             result, error = left.subtraction(right)
         elif node.op_token.type == TT_MUL:
             result, error = left.multiplication(right)
+        elif node.op_token.type == TT_REMAIN:
+            result, error = left.remainder(right)
         elif node.op_token.type == TT_DIV:
             result, error = left.division(right)
         elif node.op_token.type == TT_POW:
