@@ -1,5 +1,5 @@
 # Elastic
-A Python-based / Pythonic Programming Language (interpreter based).
+A **Python-based / Pythonic** Programming Language (interpreter based).
 
 # Description
 This project was based on/inspired by:
@@ -18,7 +18,7 @@ but I modified different parts to my liking and changed some functionality. I al
 - is_number(param): Checks if the argument is a number data type.
 - is_string(param): Checks if the argument is a string data type.
 - is_list(param): Checks if the argument is a list data type.
-- is_function(param): Checks if anm argument is a function data type.
+- is_function(param): Checks if an argument is a function data type.
 - append(list, item): Adds an item to a list.
 - remove(list, index): Removes an item from a list.
 - extend(list, list): Extends a list with new list inputs.
@@ -36,5 +36,13 @@ but I modified different parts to my liking and changed some functionality. I al
 - to_lower(string): Returns a string in all lowercase.
 
 # List Operations:
+Addition: [1,2,3] + 4 = [1,2,3,4]
+Conjunction: [1,2,3] * [4,5,6] = [1,2,3,4,5,6]
+Removal: [1,2,3] - 1 (index, not value) = [1,3]
+Retrieval: [1,2,3] / 0 (index, not value) = 1
 
+# Special Notes
+- Files must have a .el extension
+- Run the shell file first before using the run command in your terminal.
+- A blank document with only comments WILL throw an error.
 
