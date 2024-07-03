@@ -35,6 +35,12 @@ global_symbol_table.set("index_of", BuiltInFunction.index_of)
 global_symbol_table.set("to_upper", BuiltInFunction.to_upper)
 global_symbol_table.set("to_lower", BuiltInFunction.to_lower)
 
+global_symbol_table.set("pi", Number.pi)
+global_symbol_table.set("euler", Number.e)
+global_symbol_table.set("tau", Number.tau)
+
+
+
 
 
 

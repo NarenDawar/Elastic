@@ -1,7 +1,7 @@
 from errors import RTError
 from context import Context
 from values import *
-
+import math
 
 
 class Number(Value):
@@ -112,3 +112,6 @@ class Number(Value):
 Number.null = Number(0)
 Number.true = Number(1)
 Number.false = Number(0)
+Number.pi = Number(math.pi)
+Number.euler = Number(math.e)
+Number.tau = Number(math.tau)

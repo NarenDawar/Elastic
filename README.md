@@ -8,7 +8,7 @@ This project was based on/inspired by:
 - Ruslan's Blog: Let's Make A Simple Interpreter
 
 This project was made for fun out of interest. The Parser and Interpreter bases were created by CodePulse,
-but I modified different parts to my liking and changed some functionality. I also added a variety of functions and data types.
+but I modified different parts to my liking and changed some functionality. I also added a variety of functions and data structures.
 
 # Built-In Functions:
 - print(param): Simple print statement
@@ -34,6 +34,9 @@ but I modified different parts to my liking and changed some functionality. I al
 - index_of(list, item): Returns index of an item in a specified list, otherwise returns -1.
 - to_upper(string): Returns a string in all uppercase.
 - to_lower(string): Returns a string in all lowercase.
+
+**Constants:** Pi (pi), Euler's Number (euler), Tau (tau)
+
 
 # List Operations:
 Addition: [1,2,3] + 4 = [1,2,3,4]
