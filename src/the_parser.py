@@ -153,6 +153,15 @@ class Parser:
         else:
             step_value = None
 
+        if self.current_token.type != TT_COLON:
+            return res.fail(InvalidSyntaxError(
+                self.current_token.pos_start, self.current_token.pos_end,
+                f"Expected ':'"
+        ))
+
+        res.register_adv()
+        self.next()
+
         if self.current_token.type == TT_NEWLINE:
             res.register_adv()
             self.next()
